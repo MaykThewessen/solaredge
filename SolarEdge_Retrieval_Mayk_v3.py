@@ -12,13 +12,13 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 import time
 
+## importing the load_dotenv from the python-dotenv module
+from dotenv import load_dotenv
+load_dotenv()
+
 # Setup Environment & # Load API Key & Configurations
 import os
 os.system('clear')  # Clear console (MacOS)
-DATA_DIR = "data/"
-os.makedirs(DATA_DIR, exist_ok=True)
-
-
 
 # --- Configuratie ---
 SITE_ID = os.getenv("SOLAREDGE_SITE_ID")
