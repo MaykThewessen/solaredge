@@ -12,8 +12,8 @@ import solaredge
 import time
 import functools as ft
 
-s = solaredge.Solaredge("9P6QJRA3SZED0VXNARKL8F4R8XPSU1GK")
-site_id = 1041749
+s = solaredge.Solaredge("API_KEY_private") #change to your own API key of site-id
+site_id = 1001709    #change to your own SolarEdge site-id
 
 # Edit this date range as you see fit
 # If querying at the maximum resolution of 15 minute intervals, the API is limited to queries of a month at a time
